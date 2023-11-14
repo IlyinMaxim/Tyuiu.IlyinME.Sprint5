@@ -13,6 +13,7 @@ namespace Tyuiu.IlyinME.Sprint5.Task0.V28.Lib
     {
         public string SaveToFileTextData(int x)
         {
+
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
             double y = x * Math.Sqrt(x + 3);
             y = Math.Round(y, 3);

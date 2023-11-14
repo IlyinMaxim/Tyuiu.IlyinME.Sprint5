@@ -39,6 +39,7 @@ namespace Tyuiu.IlyinME.Sprint5.Task0.V28
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
+
             string res = ds.SaveToFileTextData(x);
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
