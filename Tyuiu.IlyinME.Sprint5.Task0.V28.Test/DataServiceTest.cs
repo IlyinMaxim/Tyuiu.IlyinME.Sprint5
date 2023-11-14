@@ -12,7 +12,6 @@ namespace Tyuiu.IlyinME.Sprint5.Task0.V28.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-
             string path = @"C:\Users\1\source\repos\Tyuiu.IlyinME.Sprint5\Tyuiu.IlyinME.Sprint5.Task0.V28\bin\Debug\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
